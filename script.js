@@ -256,3 +256,10 @@ const randomInt = (min, max) =>
   Math.trunc(Math.random() * (max - min) + 1) + min;
 
 // console.log(randomInt(10, 20));
+
+labelBalance.addEventListener('click', function () {
+  [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
+    if (i % 2 === 0) row.style.backgroundColor = 'orangered';
+    if (i % 3 === 0) row.style.backgroundColor = 'blue';
+  });
+});
