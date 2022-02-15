@@ -252,14 +252,32 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 // LECTURES
 
-const randomInt = (min, max) =>
-  Math.trunc(Math.random() * (max - min) + 1) + min;
+// const randomInt = (min, max) =>
+//   Math.trunc(Math.random() * (max - min) + 1) + min;
 
-// console.log(randomInt(10, 20));
+// // console.log(randomInt(10, 20));
 
-labelBalance.addEventListener('click', function () {
-  [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
-    if (i % 2 === 0) row.style.backgroundColor = 'orangered';
-    if (i % 3 === 0) row.style.backgroundColor = 'blue';
-  });
-});
+// labelBalance.addEventListener('click', function () {
+//   [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
+//     if (i % 2 === 0) row.style.backgroundColor = 'orangered';
+//     if (i % 3 === 0) row.style.backgroundColor = 'blue';
+//   });
+// });
+
+// 287,460,000,000
+const diameter = 287_460_000_000;
+console.log(diameter);
+
+// $345.99
+const priceCents = 345_99;
+console.log(priceCents);
+
+// Both 1500
+const transferFee1 = 15_00;
+const transferFee2 = 1_5_00;
+
+console.log(transferFee1);
+console.log(transferFee2);
+
+const PI = 3.14_15;
+console.log(PI);
