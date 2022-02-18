@@ -265,19 +265,34 @@ btnSort.addEventListener('click', function (e) {
 // });
 
 // 287,460,000,000
-const diameter = 287_460_000_000;
-console.log(diameter);
+// const diameter = 287_460_000_000;
+// console.log(diameter);
 
-// $345.99
-const priceCents = 345_99;
-console.log(priceCents);
+// // $345.99
+// const priceCents = 345_99;
+// console.log(priceCents);
 
-// Both 1500
-const transferFee1 = 15_00;
-const transferFee2 = 1_5_00;
+// // Both 1500
+// const transferFee1 = 15_00;
+// const transferFee2 = 1_5_00;
 
-console.log(transferFee1);
-console.log(transferFee2);
+// console.log(transferFee1);
+// console.log(transferFee2);
 
-const PI = 3.14_15;
-console.log(PI);
+// const PI = 3.14_15;
+// console.log(PI);
+
+// Create a Date
+const now = new Date();
+console.log(now);
+
+console.log(new Date('Feb 17 2022 19:18:41'));
+console.log(new Date('December 24,2015'));
+console.log(new Date(account1.movementsDates[0]));
+
+// Date in Javascript is 0 based
+console.log(new Date(2037, 10, 19, 15, 23, 5));
+console.log(new Date(2037, 10, 33, 15, 23, 5));
+
+console.log(new Date(0));
+console.log(new Date(3 * 24 * 60 * 60 * 1000));
